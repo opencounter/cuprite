@@ -38,7 +38,6 @@ module Capybara
 
       def reset
         super
-        @page = attach_page
       end
 
       def quit

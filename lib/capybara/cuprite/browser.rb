@@ -38,6 +38,7 @@ module Capybara
 
       def reset
         super
+        @page = false
       end
 
       def quit
